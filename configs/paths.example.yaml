@@ -1,0 +1,20 @@
+# Copy this file to configs/paths.local.yaml and edit it for your own machine.
+# Do not commit configs/paths.local.yaml.
+
+project_root: "C:/Users/S/Documents/ChatGPT/cvpr"
+
+data_root: "D:/datasets/3d_perception_project"
+raw_data_root: "D:/datasets/3d_perception_project/raw"
+processed_data_root: "D:/datasets/3d_perception_project/processed"
+
+output_root: "D:/experiments/3d_perception_project"
+checkpoint_root: "D:/experiments/3d_perception_project/checkpoints"
+log_root: "D:/experiments/3d_perception_project/logs"
+
+datasets:
+  dataset_a:
+    enabled: false
+    raw_dir: "D:/datasets/3d_perception_project/raw/dataset_a"
+    processed_dir: "D:/datasets/3d_perception_project/processed/dataset_a_v1"
+    split_dir: "D:/datasets/3d_perception_project/splits/dataset_a"
+
