@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environments
+.env
+.venv/
+venv/
+env/
+*.conda
+
+# Local machine/server paths
+configs/paths.local.yaml
+
+# Editors and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Large research artifacts: keep these outside git
+data/
+datasets/raw/
+datasets/processed/
+checkpoints/
+outputs/
+runs/
+wandb/
+logs/
+*.ckpt
+*.pth
+*.pt
+*.onnx
+*.npz
+*.npy
+
+# Temporary document/render outputs
+docx_render_check/
+tmp/
+temp/
